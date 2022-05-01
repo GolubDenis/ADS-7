@@ -58,8 +58,7 @@ T TPQueue<T>::pop() {
     delete head;
     head = temp;
     return data;
-  }
-  else {
+  } else {
     throw std::string("Empty!");
   }
 }
